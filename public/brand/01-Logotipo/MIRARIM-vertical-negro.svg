@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 516 300" fill="none" role="img" aria-label="MIRARIM">
+  <title>MIRARIM</title>
+  <g transform="translate(194 16) scale(2)"><g fill="#1E1830">
+  <path d="M19.8 51.2 C 7.2 44.5 5.2 28.5 13.8 19.2 C 18.2 13.8 25.4 17.2 24.4 26.2 C 16.6 30.2 11.8 40.2 19.8 51.2 Z"/>
+  <path d="M44.2 51.2 C 56.8 44.5 58.8 28.5 50.2 19.2 C 45.8 13.8 38.6 17.2 39.6 26.2 C 47.4 30.2 52.2 40.2 44.2 51.2 Z"/>
+</g>
+  <g fill="none" stroke="#1E1830" stroke-width="7.1" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M16 52.5 L32 10 L48 52.5"/>
+    <path d="M22.8 37.2 H41.2" stroke-width="6.1"/>
+  </g>
+  <circle cx="32" cy="26.2" r="3.05" fill="#1E1830"/></g>
+  <g transform="translate(0 168)"><g stroke="#1E1830" stroke-width="9.2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M22 86 V26 L52 74 L82 26 V86"/>
+    <path d="M108 26 V86"/>
+    <path d="M136 86 V26 H166 C190 26 200 37 200 48 C200 61 189 68 166 68 H136"/>
+    <path d="M164 68 L202 86"/>
+  </g>
+  <g stroke="#1E1830" stroke-width="9.2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M230 86 L262 26 L294 86"/>
+    <path d="M246 62 H278" stroke-width="7.6"/>
+  </g>
+  <circle cx="262" cy="47" r="5.15" fill="#1E1830"/>
+  <g stroke="#1E1830" stroke-width="9.2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M322 86 V26 H352 C376 26 386 37 386 48 C386 61 375 68 352 68 H322"/>
+    <path d="M350 68 L388 86"/>
+    <path d="M414 26 V86"/>
+    <path d="M440 86 V26 L470 74 L500 26 V86"/>
+  </g></g>
+</svg>

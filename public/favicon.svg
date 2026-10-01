@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="MIRARIM">
+  <title>MIRARIM</title>
+  <rect width="64" height="64" fill="#2B2155"/>
+  <g fill="#F7F1E6">
+    <path d="M19.8 51.2 C 7.2 44.5 5.2 28.5 13.8 19.2 C 18.2 13.8 25.4 17.2 24.4 26.2 C 16.6 30.2 11.8 40.2 19.8 51.2 Z"/>
+    <path d="M44.2 51.2 C 56.8 44.5 58.8 28.5 50.2 19.2 C 45.8 13.8 38.6 17.2 39.6 26.2 C 47.4 30.2 52.2 40.2 44.2 51.2 Z"/>
+  </g>
+  <g fill="none" stroke="#E07A5F" stroke-width="7.1" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M16 52.5 L32 10 L48 52.5"/>
+    <path d="M22.8 37.2 H41.2" stroke-width="6.1"/>
+  </g>
+  <circle cx="32" cy="26.2" r="3.05" fill="#E6B84C"/>
+</svg>
