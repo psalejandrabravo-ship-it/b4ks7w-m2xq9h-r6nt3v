@@ -651,6 +651,10 @@ function Cierre() {
           🔄 Jugar de nuevo
         </button>
       </div>
+      <details className="fin-activity">
+        <summary>mostrar actividad</summary>
+        <img src="/guias/laberinto.png" alt="Laberinto de las buenas decisiones" />
+      </details>
       <details className="fin-guide">
         <summary>Guía para el facilitador</summary>
         <p>Permita que cada niño comparta sin interrupciones. Valide todas las respuestas.</p>

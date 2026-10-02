@@ -1203,6 +1203,7 @@ button:disabled {
 .fin-hearts,
 .fin-talk,
 .fin-actions,
+.fin-activity,
 .fin-guide,
 .fin-hada {
   position: relative;
@@ -1282,6 +1283,28 @@ button:disabled {
 }
 .fin-talk span { font-size: 1.6rem; }
 .fin-actions { display: flex; justify-content: center; gap: 1rem; margin-top: 1rem; }
+.fin-activity {
+  width: min(920px, 94vw);
+  margin: 0.85rem auto 0;
+  text-align: center;
+}
+.fin-activity summary {
+  display: inline;
+  color: rgb(255 255 255 / 72%);
+  font-size: 0.85rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  cursor: pointer;
+  text-shadow: 0 1px 4px rgb(20 12 40 / 55%);
+}
+.fin-activity img {
+  display: block;
+  width: 100%;
+  margin-top: 0.7rem;
+  border-radius: 16px;
+  background: #fff;
+  box-shadow: 0 10px 24px rgb(20 12 40 / 28%);
+}
 .fin-home,
 .fin-again {
   min-width: min(320px, 42vw);
