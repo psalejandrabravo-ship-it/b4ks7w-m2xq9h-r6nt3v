@@ -1,17 +1,3 @@
 {
-  "installCommand": "npm install --omit=dev --no-audit --no-fund",
-  "redirects": [
-    {
-      "source": "/((?!api/canje|api/bloqueado).*)",
-      "missing": [
-        {
-          "type": "cookie",
-          "key": "mirarim_juego",
-          "value": "1"
-        }
-      ],
-      "destination": "/api/bloqueado",
-      "permanent": false
-    }
-  ]
+  "installCommand": "npm install --omit=dev --no-audit --no-fund"
 }
