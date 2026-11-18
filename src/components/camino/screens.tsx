@@ -227,9 +227,27 @@ function Portada() {
           <button type="button" className="btn btn-coral px-10 text-xl" onClick={begin}>
             Comenzar
           </button>
-          <a className="btn btn-ghost bg-cream no-underline" href="/guias/laberinto-buenas-decisiones.pdf" download="El-laberinto-de-las-buenas-decisiones.pdf">
-            Descargar guía
-          </a>
+          <details className="group relative">
+            <summary className="btn btn-ghost list-none cursor-pointer bg-cream [&::-webkit-details-marker]:hidden">
+              Descargar guía
+            </summary>
+            <div className="absolute left-0 top-full z-30 mt-2 min-w-56 rounded-xl border border-indigo/15 bg-cream p-2 text-left shadow-xl">
+              <a
+                className="block rounded-lg px-4 py-3 text-indigo no-underline hover:bg-indigo/10 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo"
+                href="/guias/laberinto-buenas-decisiones.pdf"
+                download="El-laberinto-de-las-buenas-decisiones.pdf"
+              >
+                Descargar en PDF
+              </a>
+              <a
+                className="block rounded-lg px-4 py-3 text-indigo no-underline hover:bg-indigo/10 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo"
+                href="/guias/laberinto-buenas-decisiones.docx"
+                download="El-laberinto-de-las-buenas-decisiones.docx"
+              >
+                Descargar en Word
+              </a>
+            </div>
+          </details>
           <button type="button" className="btn btn-ghost bg-cream" onClick={() => setOpen(true)}>
             Personalización
           </button>
